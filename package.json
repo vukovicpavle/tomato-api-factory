@@ -1,6 +1,6 @@
 {
   "name": "@vukovicpavle/tomato-api-factory",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "🍅 Create endpoints with ease.",
   "main": "dist/index.js",
   "types": "src/index.d.ts",

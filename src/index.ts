@@ -41,7 +41,7 @@ export class Endpoint {
     return this.api.get<T>(this.options.url, { params });
   }
 
-  findOne<T>(id: string): Promise<T> {
+  findOne<T>(id: string | number): Promise<T> {
     return this.api.get<T>(`${this.options.url}/${id}`);
   }
 
@@ -49,15 +49,15 @@ export class Endpoint {
     return this.api.post<T>(this.options.url, data);
   }
 
-  update<T>(id: string, data: any): Promise<T> {
+  update<T>(id: string | number, data: any): Promise<T> {
     return this.api.put<T>(`${this.options.url}/${id}`, data);
   }
 
-  delete<T>(id: string): Promise<T> {
+  delete<T>(id: string | number): Promise<T> {
     return this.api.delete<T>(`${this.options.url}/${id}`);
   }
 
-  patch<T>(id: string, data: any): Promise<T> {
+  patch<T>(id: string | number, data: any): Promise<T> {
     return this.api.patch<T>(`${this.options.url}/${id}`, data);
   }
 }
