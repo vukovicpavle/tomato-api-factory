@@ -1,7 +1,7 @@
 {
-  "name": "@vukovicpavle/orange-template",
-  "version": "1.0.1",
-  "description": "🍊 Orange template for creating new packages",
+  "name": "@vukovicpavle/tomato-api-factory",
+  "version": "1.0.0",
+  "description": "🍊 Create endpoints with ease.",
   "main": "dist/index.js",
   "types": "src/index.d.ts",
   "scripts": {
