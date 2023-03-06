@@ -1,4 +1,4 @@
-# 🍅 Template
+# 🍅 Api factory
 
 Create endpoints with ease.
 
@@ -6,7 +6,8 @@ Create endpoints with ease.
 ## Installation
 
 ```bash
-npm install @vukovicpavle/orange-template
+npm install @vukovicpavle/tomato-api-factory
+
 ```
 
 ## Usage
